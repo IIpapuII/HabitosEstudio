@@ -277,7 +277,7 @@ footer img.cc{
     min-height: 100vh;
     left: 100%;
 	top: 0;
-    margin. 8px 0 0 0;
+    margin: 8px 0 0 0;
     padding: 1vh 4vw;
 	width: 50vw;
 	background: var(--color1);
@@ -497,7 +497,69 @@ pre span{
 		text-align: left;
 	}
 
-
+	
 }
 
+.boton_personalizado{
+	text-decoration: none;
+	padding: 10px;
+	font-weight: 600px;
+	font-size: 30px;
+	color: #ffffff;
+	background-color: #79034e;
+	border-radius: 6px;
+	border: 2px solid #79034e;
+  }
+  .boton_personalizado:hover{
+	color: #ffffff;
+	background-color: #ffffff;
+  }
+  .separador{
+	  padding: 20px;
+  }
 
+  .boton{
+	padding: 10px;
+	  background-color: #7a255a;
+	  border-radius: 15px;
+	  color: white;
+  }
+  .button {
+	display: inline-block;
+	border-radius: 4px;
+	background-color: #7a255a;
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 18px;
+	padding: 10px;
+	width: 120px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+  }
+  
+  .button span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+  }
+  
+  .button span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+  }
+  
+  .button:hover span {
+	padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+	opacity: 1;
+	right: 0;
+  }
